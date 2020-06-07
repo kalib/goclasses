@@ -1,11 +1,13 @@
-pacge main {
-	import {fmt ()}
+package main
 
-	func main (
-				fmt.Print("Ola mundo!")				
-				)
-	}
+import (
+"fmt"
+)
 
+func main() {
+fmt.Println("Olá mundo.")
+}
+}
 
 
  
