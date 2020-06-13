@@ -9,13 +9,7 @@ import (
 	var z bool = true
 
 func main() {
-	fmt.Println("Valor de x: ", x)
-	fmt.Println("Valor de y: ", y)
-	fmt.Println("Valor de z: ", z)	
-	fmt.Println("Como se chama o valor atribuido para cada variavel ? ")
-	fmt.Println("Resposta: Zero")
-	
-	s := fmt.Sprintf("Valores: ",x,y,z)
+	s := fmt.Sprintf("%v\t%v\t%v\n",x,y,z)
         fmt.Println(s)	
 
 }
